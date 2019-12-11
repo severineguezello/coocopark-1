@@ -1,0 +1,628 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "SIG.DEP_STA_Parkings",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4999454213, 48.3894515983 ]
+			},
+			"properties" : {
+				"title" : "Parking",
+				"OBJECTID_1" : 641,
+				"OBJECTID" : null,
+				"NOM" : "Les Capucins",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE DU CARPON",
+				"QUARTIER_E" : "Quatre-Moulins",
+				"SECTEUR_ST" : "Recouvrance Nord",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 628,
+				"PMR" : 13,
+				"INFO_PARC" : "http://www.q-park-resa.fr/fr/parking/brest/les-capucins-247.html",
+				"GPS" : "48.389238, -4.499478",
+				"X" : -4.50066103,
+				"Y" : 48.38974087
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4797435775, 48.3933495634 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 322,
+				"OBJECTID" : null,
+				"NOM" : "Jaurès",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE YVES COLLET",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Jaurès",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 400,
+				"PMR" : 8,
+				"INFO_PARC" : "http://www.q-park-resa.fr/fr/parking/brest/jean-jaures-67.html",
+				"GPS" : "48.39334956340,-4.47974357754",
+				"X" : -4.47974358,
+				"Y" : 48.39334956
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4857393015, 48.3906042984 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 323,
+				"OBJECTID" : null,
+				"NOM" : "Liberté",
+				"DEPCO" : "29019",
+				"LIBRU" : "PL  DE LA LIBERTE",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Jaurès",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 450,
+				"PMR" : 9,
+				"INFO_PARC" : "http://www.q-park-resa.fr/fr/parking/brest/liberte-68.html",
+				"GPS" : "48.39060429840,-4.48573930154",
+				"X" : -4.4857393,
+				"Y" : 48.3906043
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4856992308, 48.3884622822 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 324,
+				"OBJECTID" : null,
+				"NOM" : "Colbert",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE COLBERT",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Siam",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT ABONNES",
+				"PAIEMENT" : "ABONNEMENT",
+				"TOUT_PUBL" : "NON",
+				"ABO" : "OUI",
+				"OFFRE" : 330,
+				"PMR" : 5,
+				"INFO_PARC" : "http://www.q-park-resa.fr/fr/parking/brest/colbert-66.html",
+				"GPS" : "48.38846228220,-4.48569923082",
+				"X" : -4.48569923,
+				"Y" : 48.38846228
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4901200641, 48.3890300264 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 325,
+				"OBJECTID" : null,
+				"NOM" : "Saint Louis",
+				"DEPCO" : "29019",
+				"LIBRU" : "PL  SAINT-LOUIS",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Siam",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT ABONNES",
+				"PAIEMENT" : "ABONNEMENT",
+				"TOUT_PUBL" : "NON",
+				"ABO" : "OUI",
+				"OFFRE" : 340,
+				"PMR" : 2,
+				"INFO_PARC" : "http://www.q-park-resa.fr/fr/parking/brest/saint-louis-70.html",
+				"GPS" : "48.38903002640,-4.49012006407",
+				"X" : -4.49012006,
+				"Y" : 48.38903003
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4803932293, 48.3919912865 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 326,
+				"OBJECTID" : null,
+				"NOM" : "Branda",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE YVES COLLET",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Jaurès",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT ABONNES",
+				"PAIEMENT" : "ABONNEMENT",
+				"TOUT_PUBL" : "NON",
+				"ABO" : "OUI",
+				"OFFRE" : 160,
+				"PMR" : 0,
+				"INFO_PARC" : "http://www.q-park-resa.fr/fr/parking/brest/branda-64.html",
+				"GPS" : "48.39199128650,-4.48039322929",
+				"X" : -4.48039323,
+				"Y" : 48.39199129
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.5073201074, 48.4039986424 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 327,
+				"OBJECTID" : null,
+				"NOM" : "Napoléon III",
+				"DEPCO" : "29019",
+				"LIBRU" : "AV DE TARENTE",
+				"QUARTIER_E" : "Brest Bellevue",
+				"SECTEUR_ST" : "Bellevue",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT ABONNES",
+				"PAIEMENT" : "ABONNEMENT",
+				"TOUT_PUBL" : "NON",
+				"ABO" : "OUI",
+				"OFFRE" : 220,
+				"PMR" : 6,
+				"INFO_PARC" : "http://www.q-park-resa.fr/fr/parking/brest/napoleon-iii-69.html",
+				"GPS" : "48.40399864240,-4.50732010744",
+				"X" : -4.50732011,
+				"Y" : 48.40399864
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4685283176, 48.4023421051 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 328,
+				"OBJECTID" : null,
+				"NOM" : "Strasbourg",
+				"DEPCO" : "29019",
+				"LIBRU" : "PL STRASBOURG",
+				"QUARTIER_E" : "Brest Europe",
+				"SECTEUR_ST" : "Strasbourg",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING RELAIS",
+				"PAIEMENT" : "RESEAU TRANSPORT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 232,
+				"PMR" : 5,
+				"INFO_PARC" : "http://www.bibus.fr/parking-relais.aspx",
+				"GPS" : "48.40234210510,-4.46852831757",
+				"X" : -4.46852832,
+				"Y" : 48.40234211
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4660746833, 48.4310325266 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 329,
+				"OBJECTID" : null,
+				"NOM" : "Porte de Gouesnou",
+				"DEPCO" : "29061",
+				"LIBRU" : "RUE EMILE ROUX",
+				"QUARTIER_E" : "Gouesnou",
+				"SECTEUR_ST" : "Gouesnou",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING RELAIS",
+				"PAIEMENT" : "RESEAU TRANSPORT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 194,
+				"PMR" : 10,
+				"INFO_PARC" : "http://www.bibus.fr/parking-relais.aspx",
+				"GPS" : "48.43103252660,-4.46607468326",
+				"X" : -4.46607468,
+				"Y" : 48.43103253
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.5437676947, 48.3781098655 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 330,
+				"OBJECTID" : null,
+				"NOM" : "Fort Montbarey",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE ROMAIN GARY",
+				"QUARTIER_E" : "Brest St Pierre",
+				"SECTEUR_ST" : "St Pierre",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING RELAIS",
+				"PAIEMENT" : "RESEAU TRANSPORT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 174,
+				"PMR" : 4,
+				"INFO_PARC" : "http://www.bibus.fr/parking-relais.aspx",
+				"GPS" : "48.37810986550,-4.54376769465",
+				"X" : -4.54376769,
+				"Y" : 48.37810987
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4799019237, 48.3882330369 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 331,
+				"OBJECTID" : null,
+				"NOM" : "Effia gare",
+				"DEPCO" : "29019",
+				"LIBRU" : "PL DU 19EME R.I.",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Gare",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "HORODATEUR",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 76,
+				"PMR" : 2,
+				"INFO_PARC" : "https://www.resaplace.com/fr/parking/brest-gare-sncf-9",
+				"GPS" : "48.38823303690,-4.47990192369",
+				"X" : -4.47990192,
+				"Y" : 48.38823304
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.419384086, 48.4420112186 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 332,
+				"OBJECTID" : null,
+				"NOM" : "P2 de proximité aéroport",
+				"DEPCO" : "29075",
+				"LIBRU" : "RUE LOUIS JOSEPH MAILLOUX",
+				"QUARTIER_E" : "Guipavas",
+				"SECTEUR_ST" : "Aéroport",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : null,
+				"OFFRE" : 1002,
+				"PMR" : 12,
+				"INFO_PARC" : "https://www.brest.aeroport.bzh/stationnement",
+				"GPS" : "48.44201121860,-4.41938408597",
+				"X" : -4.41938409,
+				"Y" : 48.44201122
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4133281561, 48.4450373985 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 334,
+				"OBJECTID" : null,
+				"NOM" : "P3 économique aéroport",
+				"DEPCO" : "29075",
+				"LIBRU" : "RUE LOUIS JOSEPH MAILLOUX",
+				"QUARTIER_E" : "Guipavas",
+				"SECTEUR_ST" : "Aéroport",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : null,
+				"OFFRE" : 907,
+				"PMR" : 0,
+				"INFO_PARC" : "https://www.brest.aeroport.bzh/stationnement",
+				"GPS" : "48.44503739840,-4.41332815611",
+				"X" : -4.41332816,
+				"Y" : 48.4450374
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4149975942, 48.4448359754 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 335,
+				"OBJECTID" : null,
+				"NOM" : "P3 abonnés économique aéroport",
+				"DEPCO" : "29075",
+				"LIBRU" : "RUE LOUIS JOSEPH MAILLOUX",
+				"QUARTIER_E" : "Guipavas",
+				"SECTEUR_ST" : "Aéroport",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING PAYANT ABONNES",
+				"PAIEMENT" : "ABONNEMENT",
+				"TOUT_PUBL" : "NON",
+				"ABO" : "OUI",
+				"OFFRE" : 168,
+				"PMR" : 0,
+				"INFO_PARC" : "https://www.brest.aeroport.bzh/stationnement",
+				"GPS" : "48.44483597540,-4.41499759419",
+				"X" : -4.41499759,
+				"Y" : 48.44483598
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4137015081, 48.4458268828 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 336,
+				"OBJECTID" : null,
+				"NOM" : "P3bis économique aéroport",
+				"DEPCO" : "29075",
+				"LIBRU" : "RUE LOUIS JOSEPH MAILLOUX",
+				"QUARTIER_E" : "Guipavas",
+				"SECTEUR_ST" : "Aéroport",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : null,
+				"OFFRE" : 230,
+				"PMR" : 0,
+				"INFO_PARC" : "https://www.brest.aeroport.bzh/stationnement",
+				"GPS" : "48.44582688280,-4.41370150810",
+				"X" : -4.41370151,
+				"Y" : 48.44582688
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4762632275, 48.398386647 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 337,
+				"OBJECTID" : null,
+				"NOM" : "Kerfautras",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE KERFAUTRAS",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Jaurès",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING GRATUIT",
+				"PAIEMENT" : "GRATUIT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "S/O",
+				"OFFRE" : 535,
+				"PMR" : 3,
+				"INFO_PARC" : null,
+				"GPS" : "48.39838664700,-4.47626322749",
+				"X" : -4.47626323,
+				"Y" : 48.39838665
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.488005046, 48.3825539322 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 338,
+				"OBJECTID" : null,
+				"NOM" : "Parc à Chaînes",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE JEAN-MARIE LE BRIS",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Port",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING GRATUIT",
+				"PAIEMENT" : "GRATUIT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "S/O",
+				"OFFRE" : 304,
+				"PMR" : 6,
+				"INFO_PARC" : null,
+				"GPS" : "48.38255393220,-4.48800504600",
+				"X" : -4.48800505,
+				"Y" : 48.38255393
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4926463537, 48.383470128 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 339,
+				"OBJECTID" : null,
+				"NOM" : "Enclos Château",
+				"DEPCO" : "29019",
+				"LIBRU" : "BD FRANCAIS LIBRES",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Siam",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING ENCLOS ZONE VERTE",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "NON",
+				"OFFRE" : 82,
+				"PMR" : 2,
+				"INFO_PARC" : "http://www.stationner-a-brest.com/flanez.php",
+				"GPS" : "48.38355200280,-4.49318772193",
+				"X" : -4.49318772,
+				"Y" : 48.383552
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4915272617, 48.3880588668 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 340,
+				"OBJECTID" : null,
+				"NOM" : "Enclos Sangnier",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE MICHELET",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Siam",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING ENCLOS ZONE ORANGE",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "NON",
+				"OFFRE" : 78,
+				"PMR" : 4,
+				"INFO_PARC" : "http://www.stationner-a-brest.com/flanez.php",
+				"GPS" : "48.38805886670,-4.49152726174",
+				"X" : -4.49152726,
+				"Y" : 48.38805887
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4813129978, 48.387593029 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 341,
+				"OBJECTID" : null,
+				"NOM" : "Enclos Gares",
+				"DEPCO" : "29019",
+				"LIBRU" : "PL DU 19EME R.I.",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Gare",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING ENCLOS ZONE VERTE",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "NON",
+				"OFFRE" : 105,
+				"PMR" : 3,
+				"INFO_PARC" : "http://www.stationner-a-brest.com/flanez.php",
+				"GPS" : "48.38759302890,-4.48131299781",
+				"X" : -4.481313,
+				"Y" : 48.38759303
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4427462332, 48.4183554154 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 342,
+				"OBJECTID" : null,
+				"NOM" : "Porte de Guipavas",
+				"DEPCO" : "29075",
+				"LIBRU" : "RUE DE KERADRIEN",
+				"QUARTIER_E" : "Guipavas",
+				"SECTEUR_ST" : "Guipavas",
+				"TYPE_PARC" : "SURFACE",
+				"STATUT" : "PARKING RELAIS",
+				"PAIEMENT" : "RESEAU TRANSPORT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 80,
+				"PMR" : 0,
+				"INFO_PARC" : "http://www.bibus.fr/parking-relais.aspx",
+				"GPS" : "48.4183554154,-4.4427462332",
+				"X" : -4.44274623,
+				"Y" : 48.41835542
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4834457334, 48.3931137721 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 321,
+				"OBJECTID" : null,
+				"NOM" : "Coat-ar-Gueven",
+				"DEPCO" : "29019",
+				"LIBRU" : "RUE DUPLEIX",
+				"QUARTIER_E" : "Brest Centre",
+				"SECTEUR_ST" : "Jaurès",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : "OUI",
+				"OFFRE" : 720,
+				"PMR" : 24,
+				"INFO_PARC" : "http://www.q-park-resa.fr/fr/parking/brest/coat-ar-gueven-65.html",
+				"GPS" : "48.39311377210,-4.48344573342",
+				"X" : -4.48344573,
+				"Y" : 48.39311377
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -4.4197397206, 48.4426954092 ]
+			},
+			"properties" : {
+				"OBJECTID_1" : 333,
+				"OBJECTID" : null,
+				"NOM" : "P1 couvert aéroport",
+				"DEPCO" : "29075",
+				"LIBRU" : "RUE LOUIS JOSEPH MAILLOUX",
+				"QUARTIER_E" : "Guipavas",
+				"SECTEUR_ST" : "Aéroport",
+				"TYPE_PARC" : "COUVERT",
+				"STATUT" : "PARKING PAYANT",
+				"PAIEMENT" : "POST PAIEMENT",
+				"TOUT_PUBL" : "OUI",
+				"ABO" : null,
+				"OFFRE" : 430,
+				"PMR" : 10,
+				"INFO_PARC" : "https://www.brest.aeroport.bzh/stationnement",
+				"GPS" : "48.44269540920,-4.41973972057",
+				"X" : -4.41973972,
+				"Y" : 48.44269541
+			}
+		}
+	]
+}
