@@ -76,7 +76,7 @@ def main():
     print(parkingsShapedData)
     
     # Save the data in a json file
-    with open('/Users/matthiasprevost/Documents/ReactNative/coocopark/data/free_parking_spots.json', 'w') as write_file: # enregistrer dans un fichier .json
+    with open('/Users/matthiasprevost/Desktop/free_parking_spots.json', 'w') as write_file: # enregistrer dans un fichier .json
         json.dump(parkingsShapedData, write_file, ensure_ascii = False)
     
 if __name__ == "__main__":

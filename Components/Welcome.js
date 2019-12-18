@@ -43,7 +43,7 @@ export default class Welcome extends Component {
                     />
                   }
                 >
-                <Text style={{color:'grey'}}>{'SLIDE TO UNLOCK'}</Text>
+                <Text style={{color:'grey'}}>{'GLISSER POUR OUVRIR'}</Text>
                 </Slider>
             </View>
         );

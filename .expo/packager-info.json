@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 36847,
-  "expoServerNgrokUrl": "https://di-vy7.anonymous.coocopark.exp.direct",
-  "packagerNgrokUrl": "https://packager.di-vy7.anonymous.coocopark.exp.direct",
-  "ngrokPid": 36865
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }

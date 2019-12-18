@@ -1,8 +1,9 @@
-import { createStackNavigator} from 'react-navigation-stack'
-import {createAppContainer} from 'react-navigation'
+import React from 'react';
+import {Image,StyleSheet,View} from 'react-native';
+import { createStackNavigator} from 'react-navigation-stack';
+import {createAppContainer} from 'react-navigation';
 import Welcome from '../Components/Welcome';
 import Home from '../Components/Home';
-import Bluetooth from '../Components/Bluetooth'
 
 const Nav1 = createStackNavigator({
   Welcome: {
@@ -14,13 +15,15 @@ const Nav1 = createStackNavigator({
   Home : {
     screen : Home,
     navigationOptions : {
-      headerShown : false
-    }
-  },
-  Bluetooth : {
-    screen : Bluetooth,
-    navigationOptions : {
-      headerShown : false
+      headerShown : true,
+      headerBackground: (
+        <View style={{alignItems:"center", justifyContent:'center'}}>
+        <Image
+          style={{marginTop:10}}
+          source={require('../media/logo.png')}
+        />
+        </View>
+      ),
     }
   }
 })

@@ -5,17 +5,150 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		092E9C922DFD1940C10A379E /* libPods-coocopark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 570C80F21E19C0D7BB9D19A7 /* libPods-coocopark.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		8E70A73323A0E508005DC091 /* libRCTBluetoothSerial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E70A73223A0E348005DC091 /* libRCTBluetoothSerial.a */; };
+		AD32E7CAB6CD44A3914CB78A /* libRNBluetoothClassic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6370203DD9854DE1BBE22229 /* libRNBluetoothClassic.a */; };
 		E9AEB8E3EE4D43A5AE7B174C /* libRCTBluetoothSerial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A5C764688048009EAF1163 /* libRCTBluetoothSerial.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E70A72C23A0E348005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7CE81E1D6F46A7AC197B11 /* RNBluetoothClassic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNBluetoothClassic;
+		};
+		8E70A73123A0E348005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B291969456D843FAB9356671 /* RCTBluetoothSerial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 69CA06031CC43C2900AF6479;
+			remoteInfo = RCTBluetoothSerial;
+		};
+		8E70A74C23A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		8E70A74E23A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		8E70A75023A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		8E70A75223A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		8E70A75423A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		8E70A75623A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		8E70A75823A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		8E70A75A23A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		8E70A75C23A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		8E70A75E23A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		8E70A76023A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		8E70A76223A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		8E70A76423A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		8E70A76623A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		8E70A76823A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		8E70A76A23A1264F005DC091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		0A7CE81E1D6F46A7AC197B11 /* RNBluetoothClassic.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNBluetoothClassic.xcodeproj; path = "../node_modules/react-native-bluetooth-classic/ios/RNBluetoothClassic.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* coocopark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coocopark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = coocopark/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = coocopark/AppDelegate.m; sourceTree = "<group>"; };
@@ -24,13 +157,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = coocopark/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = coocopark/main.m; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A5C764688048009EAF1163 /* libRCTBluetoothSerial.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTBluetoothSerial.a; sourceTree = "<group>"; };
 		570C80F21E19C0D7BB9D19A7 /* libPods-coocopark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coocopark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6370203DD9854DE1BBE22229 /* libRNBluetoothClassic.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNBluetoothClassic.a; sourceTree = "<group>"; };
 		85B8BFB5F5FA7E2B44BB72B8 /* Pods-coocopark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coocopark.release.xcconfig"; path = "Target Support Files/Pods-coocopark/Pods-coocopark.release.xcconfig"; sourceTree = "<group>"; };
+		8E70A73823A1264F005DC091 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		B291969456D843FAB9356671 /* RCTBluetoothSerial.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTBluetoothSerial.xcodeproj; path = "../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F570D57966B984F8BAE1C6A9 /* Pods-coocopark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coocopark.debug.xcconfig"; path = "Target Support Files/Pods-coocopark/Pods-coocopark.debug.xcconfig"; sourceTree = "<group>"; };
-		B291969456D843FAB9356671 /* RCTBluetoothSerial.xcodeproj */ = {isa = PBXFileReference; name = "RCTBluetoothSerial.xcodeproj"; path = "../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		42A5C764688048009EAF1163 /* libRCTBluetoothSerial.a */ = {isa = PBXFileReference; name = "libRCTBluetoothSerial.a"; path = "libRCTBluetoothSerial.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +173,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E70A73323A0E508005DC091 /* libRCTBluetoothSerial.a in Frameworks */,
 				092E9C922DFD1940C10A379E /* libPods-coocopark.a in Frameworks */,
 				E9AEB8E3EE4D43A5AE7B174C /* libRCTBluetoothSerial.a in Frameworks */,
+				AD32E7CAB6CD44A3914CB78A /* libRNBluetoothClassic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +214,6 @@
 				F570D57966B984F8BAE1C6A9 /* Pods-coocopark.debug.xcconfig */,
 				85B8BFB5F5FA7E2B44BB72B8 /* Pods-coocopark.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				B291969456D843FAB9356671 /* RCTBluetoothSerial.xcodeproj */,
+				0A7CE81E1D6F46A7AC197B11 /* RNBluetoothClassic.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -92,11 +229,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				8E70A73823A1264F005DC091 /* React.xcodeproj */,
 				13B07FAE1A68108700A75B9A /* coocopark */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				466629ECCB4E4F53DAC5A18B /* Pods */,
+				8E70A72823A0E343005DC091 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -107,6 +246,54 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* coocopark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E70A72823A0E343005DC091 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				42A5C764688048009EAF1163 /* libRCTBluetoothSerial.a */,
+				6370203DD9854DE1BBE22229 /* libRNBluetoothClassic.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		8E70A72923A0E348005DC091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E70A72D23A0E348005DC091 /* libRNBluetoothClassic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E70A72E23A0E348005DC091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E70A73223A0E348005DC091 /* libRCTBluetoothSerial.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E70A73923A1264F005DC091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E70A74D23A1264F005DC091 /* libReact.a */,
+				8E70A74F23A1264F005DC091 /* libReact.a */,
+				8E70A75123A1264F005DC091 /* libyoga.a */,
+				8E70A75323A1264F005DC091 /* libyoga.a */,
+				8E70A75523A1264F005DC091 /* libcxxreact.a */,
+				8E70A75723A1264F005DC091 /* libcxxreact.a */,
+				8E70A75923A1264F005DC091 /* libjsinspector.a */,
+				8E70A75B23A1264F005DC091 /* libjsinspector-tvOS.a */,
+				8E70A75D23A1264F005DC091 /* libthird-party.a */,
+				8E70A75F23A1264F005DC091 /* libthird-party.a */,
+				8E70A76123A1264F005DC091 /* libdouble-conversion.a */,
+				8E70A76323A1264F005DC091 /* libdouble-conversion.a */,
+				8E70A76523A1264F005DC091 /* libjsi.a */,
+				8E70A76723A1264F005DC091 /* libjsiexecutor.a */,
+				8E70A76923A1264F005DC091 /* libjsi-tvOS.a */,
+				8E70A76B23A1264F005DC091 /* libjsiexecutor-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,30 +330,168 @@
 			attributes = {
 				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
-				TargetAttributes = {
-					00E356ED1AD99517003FC87E = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "coocopark" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8E70A72E23A0E348005DC091 /* Products */;
+					ProjectRef = B291969456D843FAB9356671 /* RCTBluetoothSerial.xcodeproj */;
+				},
+				{
+					ProductGroup = 8E70A73923A1264F005DC091 /* Products */;
+					ProjectRef = 8E70A73823A1264F005DC091 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 8E70A72923A0E348005DC091 /* Products */;
+					ProjectRef = 0A7CE81E1D6F46A7AC197B11 /* RNBluetoothClassic.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* coocopark */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8E70A72D23A0E348005DC091 /* libRNBluetoothClassic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNBluetoothClassic.a;
+			remoteRef = 8E70A72C23A0E348005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A73223A0E348005DC091 /* libRCTBluetoothSerial.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTBluetoothSerial.a;
+			remoteRef = 8E70A73123A0E348005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A74D23A1264F005DC091 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 8E70A74C23A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A74F23A1264F005DC091 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 8E70A74E23A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A75123A1264F005DC091 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 8E70A75023A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A75323A1264F005DC091 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 8E70A75223A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A75523A1264F005DC091 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 8E70A75423A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A75723A1264F005DC091 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 8E70A75623A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A75923A1264F005DC091 /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = 8E70A75823A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A75B23A1264F005DC091 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = 8E70A75A23A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A75D23A1264F005DC091 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 8E70A75C23A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A75F23A1264F005DC091 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 8E70A75E23A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A76123A1264F005DC091 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 8E70A76023A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A76323A1264F005DC091 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 8E70A76223A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A76523A1264F005DC091 /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = 8E70A76423A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A76723A1264F005DC091 /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = 8E70A76623A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A76923A1264F005DC091 /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = 8E70A76823A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E70A76B23A1264F005DC091 /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = 8E70A76A23A1264F005DC091 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
@@ -288,8 +613,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial",
+					"$(SRCROOT)/../node_modules/react-native-bluetooth-classic/ios",
+				);
 				INFOPLIST_FILE = coocopark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/coocopark\"",
+					"\"$(SRCROOT)/coocopark\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -298,14 +633,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = coocopark;
 				VERSIONING_SYSTEM = "apple-generic";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/coocopark\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial",
-				);
 			};
 			name = Debug;
 		};
@@ -315,8 +642,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial",
+					"$(SRCROOT)/../node_modules/react-native-bluetooth-classic/ios",
+				);
 				INFOPLIST_FILE = coocopark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/coocopark\"",
+					"\"$(SRCROOT)/coocopark\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -325,14 +662,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = coocopark;
 				VERSIONING_SYSTEM = "apple-generic";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/coocopark\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-bluetooth-serial/ios/RCTBluetoothSerial",
-				);
 			};
 			name = Release;
 		};

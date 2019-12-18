@@ -88,6 +88,12 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
+  - RNGestureHandler (1.4.1):
+    - React
+  - RNReanimated (1.3.2):
+    - React
+  - RNScreens (1.0.0-alpha.23):
+    - React
   - yoga (0.59.10.React)
 
 DEPENDENCIES:
@@ -111,6 +117,9 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
+  - RNScreens (from `../node_modules/react-native-screens`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
 
 SPEC REPOS:
@@ -132,6 +141,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-maps"
   react-native-maps:
     :path: "../node_modules/react-native-maps"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
 
@@ -145,8 +160,11 @@ SPEC CHECKSUMS:
   React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
   react-native-google-maps: 2e2e697dab576abd5809d78cd74e775865b62bf7
   react-native-maps: 6e499eee4eabf422ba8b6f94e993cc768bf35153
+  RNGestureHandler: 4cb47a93019c1a201df2644413a0a1569a51c8aa
+  RNReanimated: 5d148a7f55ebf47055ea55f51f5dc7a827dc9547
+  RNScreens: f28b48b8345f2f5f39ed6195518291515032a788
   yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
 
-PODFILE CHECKSUM: c67da180903e842df5abff7f25c85f8f23ffe581
+PODFILE CHECKSUM: 18ab4d8ac139f58dfdd0081124e9ef72c81974f1
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4
