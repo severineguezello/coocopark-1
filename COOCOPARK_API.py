@@ -27,11 +27,11 @@ class Article(Resource):
         # Retourner un article
 
         if id==1 :
-            with open('/Users/matthiasprevost/Desktop/free_parking_spots.json') as json_data:
+            with open('/Users/Nassim/Desktop/free_parking_spots.json') as json_data:
                 data = json.load(json_data)
             return data
         if id==2 :
-            with open('/Users/matthiasprevost/Desktop/etats.json') as json_etats:
+            with open('/Users/Nassim/Desktop/etats.json') as json_etats:
                 etats = json.load(json_etats)
             return etats
         return f"wait"
